@@ -1,5 +1,6 @@
 body{
     background-color: #f9f9fb;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar-brand{
@@ -35,3 +36,31 @@ body{
     background-color: #ffffff;
     margin-left: 40px;
   }
+
+/* end of home page */
+/* beginning of menu page */
+#menu-heading{
+    margin-top: 30px;
+    margin-left: 0px;
+    margin-bottom: 30px;
+}
+
+.carousel{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.images{
+    width: 100%;
+}
+
+.carousel-inner{
+    width:100%;
+    max-height: 500px ;
+  }
+
+
+
+#carousel-container{
+    margin-left: 200px;
+}
+/* end of menu page */
