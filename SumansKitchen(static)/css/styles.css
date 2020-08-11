@@ -24,10 +24,10 @@ body{
 .btn-primary {
     background-color: #ed7555;
 }
-
+/* 
 .container{
     /* margin-left: 250px; */
-}
+} */
 
 #descCard {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -60,14 +60,14 @@ body{
   }
 
 
-
+/* 
 #carousel-container{
     /* margin-left: 200px; */
-}
+} */
 /* end of menu page */
-
+/* 
 @media (min-width: 1200px) and (max-width: 767px){
     .card{
         
     }
-}
+} */
