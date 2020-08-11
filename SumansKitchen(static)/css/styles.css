@@ -26,15 +26,16 @@ body{
 }
 
 .container{
-    margin-left: 250px;
+    /* margin-left: 250px; */
 }
 
-.card {
+#descCard {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 16px;
     text-align: center;
     background-color: #ffffff;
-    margin-left: 40px;
+
+    /* margin: auto; */
   }
 
 /* end of home page */
@@ -61,6 +62,12 @@ body{
 
 
 #carousel-container{
-    margin-left: 200px;
+    /* margin-left: 200px; */
 }
 /* end of menu page */
+
+@media (min-width: 1200px) and (max-width: 767px){
+    .card{
+        
+    }
+}
