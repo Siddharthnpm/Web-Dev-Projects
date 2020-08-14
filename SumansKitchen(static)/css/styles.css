@@ -4,11 +4,15 @@ body{
 }
 
 .navbar-brand{
-    font-size: 2rem;
+    font-size: 60px;
+    font-family: 'Italianno', cursive;
+    margin-bottom: 0px;
+    padding-bottom: 0;
 }
 
 .navbar-dark .navbar-nav .nav-link{
     color: #ffffff;
+    font-size: large;
 }
 
 .jumbotron{
@@ -34,7 +38,6 @@ body{
     padding: 16px;
     text-align: center;
     background-color: #ffffff;
-
     /* margin: auto; */
   }
 
@@ -44,6 +47,8 @@ body{
     margin-top: 30px;
     margin-left: 0px;
     margin-bottom: 30px;
+    font-family: 'Italianno', cursive;
+    font-size: 65px;
 }
 
 .carousel{
@@ -59,15 +64,35 @@ body{
     max-height: 500px ;
   }
 
+ /* beginning of about us */
+ #head-chef-image{
+    position: relative;
+    height: 346px;
+    width: 274px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+ }
 
-/* 
-#carousel-container{
-    /* margin-left: 200px; */
-} */
-/* end of menu page */
-/* 
-@media (min-width: 1200px) and (max-width: 767px){
-    .card{
-        
+.chef-img h1{
+    font-family: 'Italianno', cursive;
+    font-size: 60px;
+    margin-top: 30px;
+ }
+
+ @media screen and (max-width: 992px)
+{
+    #descCard{
+        margin: auto;
     }
-} */
+}
+
+@media (max-width: 768px){
+    #descCard{
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .chef-img h1{
+        margin-left: -20px;
+        margin-top: 30px;
+    }
+}
