@@ -1,0 +1,63 @@
+body{
+    font-family: 'Oxygen', sans-serif;
+    background-color: #e7e7e7;
+}
+#main-container{
+    background-color:#34495e;
+    height: 280px;
+    width: 500px;
+    margin-top: 50px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+}
+#start-heading{
+    background-color: #e7e7e7;
+    position: relative;
+    top: 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
+#time{
+    position: relative;
+    top: 20px;
+    right: 202px;
+    color: #e7e7e7;
+}
+#countdown-timer{
+    position: relative;
+    top: -19px;
+    right: 170px;
+    color: #e7e7e7;
+}
+#seconds{
+    position: relative;
+    top: -59px;
+    right: 160px;
+    color: #e7e7e7;
+}
+#word{
+    background-color: #e7e7e7;
+    position: relative;
+    top: -135px;
+    padding: 5px;
+    border-radius: 5px;
+}
+#spellCheck{
+    width: 400px;
+    height: 50px;
+    position: relative;
+    top: -125px;
+    left: 10px;
+}
+#score {
+    position: relative;
+    top: -100px;
+    left: 158px;
+    color: #e7e7e7;
+}
+
+#scoreBoard {
+    position: relative;
+    top: -140px;
+    left: 195px;
+    color: #e7e7e7;
+}
