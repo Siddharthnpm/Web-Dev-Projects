@@ -5,45 +5,62 @@ body{
 }
 
 #main-container{
-    position: relative;
+    padding: 10px;
     background-color:#34495e;
     height: 280px;
-    width: 500px;
+    width: 100%;
     margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
 }
+.container-time-score{
+    display: flex;
+    flex-direction: row;
+}
+.container-Time{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.container-score{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.container-word{
+    display: flex;
+    justify-content: center;
+}
+.container-input{
+    display: flex;
+    justify-content: center;
+}
 #start-heading{
+    align-self: center;
     background-color: #e7e7e7;
-    position: absolute;
-    top: 20px;
-    left: 120px;
+    height: 50px;
     padding: 5px;
     width: 250px;
     border-radius: 5px;
 }
 #time {
-    position: absolute;
     color: #e7e7e7;
-    top: 85px;
-    right: 412px;
+    width: 42px;
+    align-content: flex-start;
 }
 #countdown-timer {
-    position: absolute;
-    top: 85px;
-    right: 393px;
+    width: 42px;
     color: #e7e7e7;
 }
 #seconds {
-    position: absolute;
-    top: 85px;
-    right: 383px;
+    width: 42px;
     color: #e7e7e7;
 }
 #word {
     background-color: #e7e7e7;
-    position: absolute;
-    top: 125px;
-    left: 120px;
+    height: 50px;
     border-radius: 5px;
     padding: 5px;
     width: 250px;
@@ -51,21 +68,14 @@ body{
 #spellCheck {
     width: 400px;
     height: 50px;
-    position: absolute;
-    top: 185px;
-    right: 50px;
     font-size: 20px;
     padding: 5px;
 }
 #score {
-    position: absolute;
-    top: 85px;
-    left: 370px;
+    width: 42px;
     color: #e7e7e7;
 }
 #scoreBoard {
-    position: absolute;
-    top: 85px;
-    left: 420px;
+    width: 42px;
     color: #e7e7e7;
 }
