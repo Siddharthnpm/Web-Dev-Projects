@@ -45,6 +45,7 @@ function updateTime () {
     {
         clearInterval(countdown);
         document.getElementById("spellCheck").disabled = true;
+        document.getElementById("word").innerHTML = "TIME UP!";
     }
 }
 
@@ -60,12 +61,12 @@ function updateScore () {
     scoreEl.innerHTML = score;
 }
 //the main happening, here we add an event listener with an input to check out for any changes in the input text field. We pass element to the function so as we can target the input text field
-word.addEventListener('input', function(element) {
+word.addEventListener('input',function(element) {
     const submission = element.target.value;
-    if(submission === document.getElementById("word").innerHTML){
+    if(submission === document.getElementById("word").innerHTML) {
         updateTime2();
         addWordToH3();
-        //to clear the input area after correct word has been entered
+        // to clear the input area after word entered is correct
         element.target.value = "";
         updateScore();
     }
