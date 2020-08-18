@@ -3,6 +3,7 @@ body{
     background-color: #e7e7e7;
 }
 #main-container{
+    position: relative;
     background-color:#34495e;
     height: 280px;
     width: 500px;
@@ -11,53 +12,56 @@ body{
 }
 #start-heading{
     background-color: #e7e7e7;
-    position: relative;
+    position: absolute;
     top: 20px;
+    left: 120px;
     padding: 5px;
+    width: 250px;
     border-radius: 5px;
 }
-#time{
-    position: relative;
-    top: 20px;
-    right: 202px;
+#time {
+    position: absolute;
+    color: #e7e7e7;
+    top: 85px;
+    right: 412px;
+}
+#countdown-timer {
+    position: absolute;
+    top: 85px;
+    right: 393px;
     color: #e7e7e7;
 }
-#countdown-timer{
-    position: relative;
-    top: -19px;
-    right: 170px;
+#seconds {
+    position: absolute;
+    top: 85px;
+    right: 383px;
     color: #e7e7e7;
 }
-#seconds{
-    position: relative;
-    top: -59px;
-    right: 160px;
-    color: #e7e7e7;
-}
-#word{
+#word {
     background-color: #e7e7e7;
-    position: relative;
-    top: -135px;
-    padding: 5px;
+    position: absolute;
+    top: 125px;
+    left: 120px;
     border-radius: 5px;
+    padding: 5px;
+    width: 250px;
 }
-#spellCheck{
+#spellCheck {
     width: 400px;
     height: 50px;
-    position: relative;
-    top: -125px;
-    left: 10px;
+    position: absolute;
+    top: 185px;
+    right: 50px;
 }
 #score {
-    position: relative;
-    top: -100px;
-    left: 158px;
+    position: absolute;
+    top: 85px;
+    left: 370px;
     color: #e7e7e7;
 }
-
 #scoreBoard {
-    position: relative;
-    top: -140px;
-    left: 195px;
+    position: absolute;
+    top: 85px;
+    left: 420px;
     color: #e7e7e7;
 }
